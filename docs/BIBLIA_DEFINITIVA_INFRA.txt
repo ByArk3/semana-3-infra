@@ -1,0 +1,31 @@
+Normal se puede usar la aplicacion del diagrama al exponer , uno o mas exponen y otro lo guia con la pc del profe
+Ademas hara preguntas a todos o puede que no xd
+
+En el ppt:
+caso de estudio/contexto
+problema 
+Requerimientos NO-funcionales  (los mas importantes que tengan)
+
+En el diagrama al exponer: 
+-Que tengan sentido al usar diferentes servicios/aplicaciones 
+Ejemplo: 
+* si tienes 2 o mas fargate lleva un ALB sino no
+* Al costado en tu RDS o AURORA agregar la base de datos estas usando mysql/oracle/etc en el diagrama
+* Subnet y que región estas
+* si estas usando grafana o cloudwatch el por que ? 
+-SQS , SNS, EVENTBRIDGE: cual estan usando y el why,ademas agregar la disponibilidad, ejemplo SNS:disponi 99.9%
+
+En el codigo:
+Mostrar el github o imagen que funcione la bromita* (aunque igual pedira github para que vea el codigo) 
+El uso de Commits correctos, fix docs feat etc, mostrar las ramas
+Explicar el README que tenga sentido con lo que esta en el diagrama
+
+SINO FUNCIONA EL CODE: 
+Minimo web con ansible y terraform  
+Los archivos estén bien separados 
+
+------ADEMAS tener terraform readme con sentido deacuerdo a lo que tienes en tu diagrama
+uso de herramientas IAC , funcionamiento técnico,  versiónamento* , documentación técnica
+
+
+forgate* trabaja con tareas que tarea en el diagrama
